@@ -23,6 +23,7 @@ crepass = "pixelmon" -- Introducir Contraseña aqui
 user2 = "javi" -- Usuario 2
 user2pass = "loko78" -- Pass for Usuario 2
 -- Codigo para el inicio de sesion
+shell.run("clear")
 term.setCursorPos(1, 1)
 write("Usuario: ")
 user = read()
