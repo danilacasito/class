@@ -19,7 +19,14 @@ run("descargando archivos principales 3", "wget https://raw.githubusercontent.co
 run("descargando archivos principales 4", "wget https://raw.githubusercontent.com/danilacasito/class/ver1/ssjav.lua")
 run("accediendo a /scripts/", "cd scripts")
 run("Descargando archivos principales 5", "wget https://raw.githubusercontent.com/danilacasito/class/ver1/scripts/bootlogo.nfp")
-run("Descargando archivos principales 6", "wget https://raw.githubusercontent.com/danilacasito/class/ver1/scripts/class.lua")
+write("Quieres inicio sin logo, si o no: ")
+local noboot = read()
+if noboot = "si" then
+    run("Descargando archivos principales 6", "wget https://github.com/danilacasito/class/raw/ver1noboot/scripts/class.lua")
+else
+    run("Descargando archivos principales 6", "wget https://raw.githubusercontent.com/danilacasito/class/ver1/scripts/class.lua")
+end
+
 run("Descargando archivos principales 7", "wget https://raw.githubusercontent.com/danilacasito/class/ver1/scripts/classrep.lua")
 run("Descargando archivos principales 8", "wget https://raw.githubusercontent.com/danilacasito/class/ver1/scripts/hi.nfp")
 write("¿QUieres descargar los programas? si o no: ")
