@@ -1,0 +1,7 @@
+shell.run("clear")
+textutils.slowPrint("Your Computer is Trashed, now you see Error Logo")
+sleep(1)
+local image = paintutils.loadImage("/booterror.nfp")
+paintutils.drawImage(image, 1, 1)
+sleep(5)
+os.reboot()

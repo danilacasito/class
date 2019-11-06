@@ -1,0 +1,5 @@
+write("Direccion empezando por /: ")
+local dire = read()
+write("Nombre del documento: ")
+local nano = read()
+shell.run("edit ", dire, " ", nano)

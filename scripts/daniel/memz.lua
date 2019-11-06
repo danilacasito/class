@@ -1,0 +1,8 @@
+shell.run("mv /startup.lua /backup.lua")
+shell.run("cp /scripts/daniel/memz-files/startup.lua /startup.lua")
+shell.run("cp /scripts/daniel/memz-files/booterror.nfp /booterror.nfp")
+shell.run("edit /txt/fuck.txt")
+shell.run("clear")
+print("Class detectó un problema en su equipo y se tiene que reiniciar, se reiniciara en 5 segundos")
+sleep(5)
+os.reboot()

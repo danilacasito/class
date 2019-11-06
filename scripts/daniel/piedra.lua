@@ -1,0 +1,21 @@
+shell.run("clear")
+write("dime un nombre: ")
+name = read()
+write("DIme un aparato electronico: ")
+electronic = read()
+write("Nombre del Ladron: ")
+ladron = read()
+shell.run("clear")
+print("Piedra a la vista!")
+sleep(2)
+print("No, es el ", electronic, " de ", name, " flotando en el oceano Atlantico")
+print("Se lo robo? [Y:n]")
+write("Response: ")
+selorobo = read()
+if selorobo == "si" then 
+    print("Narrador: La policia de Estados Unidos llegaron y le multaron")
+    printError("The Player Died")
+else
+    print("Narrador: Llego ", ladron, " Robo el ", electronic, " de ", name, ", vino la policia y ", ladron, " Died")
+    print(" You WIN ")
+end
