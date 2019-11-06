@@ -21,7 +21,7 @@ run("accediendo a /scripts/", "cd scripts")
 run("Descargando archivos principales 5", "wget https://raw.githubusercontent.com/danilacasito/class/ver1/scripts/bootlogo.nfp")
 write("Quieres inicio sin logo, si o no: ")
 local noboot = read()
-if noboot = "si" then
+if noboot == "si" then
     run("Descargando archivos principales 6", "wget https://github.com/danilacasito/class/raw/ver1noboot/scripts/class.lua")
 else
     run("Descargando archivos principales 6", "wget https://raw.githubusercontent.com/danilacasito/class/ver1/scripts/class.lua")
