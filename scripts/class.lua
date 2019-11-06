@@ -16,7 +16,7 @@ sleep(0.50)
 print("Starting Login Manager")
 sleep(5)
 -- Dibujo de la pantalla
-
+shell.run("clear")
 -- Variable Usuario y Contra
 creuser = "daniel" -- Introducir Usuario aqui
 crepass = "pixelmon" -- Introducir Contraseña aqui
