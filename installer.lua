@@ -19,7 +19,7 @@ run("descargando archivos principales 4", "wget https://raw.githubusercontent.co
 run(" ", "cd /scripts/daniel")
 run("descargando instalador de programas get", "wget https://raw.githubusercontent.com/danilacasito/class/ver1/get.lua")
 run(" ", "cd /scripts/javi")
-v
+
 run("accediendo a /scripts/", "cd /scripts")
 run("Descargando archivos principales 5", "wget https://raw.githubusercontent.com/danilacasito/class/ver1/scripts/bootlogo.nfp")
 write("Quieres inicio sin logo, si o no: ")
