@@ -11,6 +11,9 @@ elseif targ[1] == "list" then
     shell.run("wget https://raw.githubusercontent.com/danilacasito/cprogram/master/programs.list")
     shell.run("programs.list")
     shell.run("rm programs.list")
+elseif targ[1] == "update-get" then
+    shell.run("rm get.lua")
+    shell.run("wget https://raw.githubusercontent.com/danilacasito/class/ver1/get.lua")
 elseif targ[1] == "repo-edit" then
     shell.run("edit /getlist.lua")
 end
