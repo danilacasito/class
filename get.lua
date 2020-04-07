@@ -9,7 +9,9 @@ if targ[1] == "install" then
     shell.run("wget https://raw.githubusercontent.com/danilacasito/cprogram/master/"..targ[2]..".lua")
 elseif targ[1] == "list" then
     shell.run("wget https://raw.githubusercontent.com/danilacasito/cprogram/master/programs.list")
+    print("------------------------------------------------------------------")
     shell.run("programs.list")
+    print("------------------------------------------------------------------")
     shell.run("rm programs.list")
 elseif targ[1] == "update-get" then
     shell.run("rm get.lua")
