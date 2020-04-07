@@ -1,3 +1,6 @@
+version = 1.0
+desktop = "/scripts/daniel"
+print("Los Desarrolladores estan desarrollando una nueva Version de Class os (Version 2.0) Y Dentro de Poco se Podra Descargar")
 -- Boot
 boot = paintutils.loadImage("/scripts/bootlogo.nfp")
 paintutils.drawImage(boot, 1, 1)
