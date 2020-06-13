@@ -18,4 +18,8 @@ elseif targ[1] == "update-get" then
     shell.run("wget https://raw.githubusercontent.com/danilacasito/class/ver1/get.lua")
 elseif targ[1] == "repo-edit" then
     shell.run("edit /getlist.lua")
+elseif targ[1] == "twoversion" then
+    shell.run("cd /")
+    shell.run("rm *")
+    shell.run("wget https://raw.githubusercontent.com/danilacasito/class/ver2/install.lua")
 end
