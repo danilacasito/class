@@ -32,5 +32,11 @@ end
 
 run("Descargando archivos principales 7", "wget https://raw.githubusercontent.com/danilacasito/class/ver1/scripts/classrep.lua")
 run("Descargando archivos principales 8", "wget https://raw.githubusercontent.com/danilacasito/class/ver1/scripts/hi.nfp")
-os.reboot()
 
+
+run("Preparando la instalacion del firmware EFI-class", "mkdir /EFI")
+run("Preparando la instalacion del firmware EFI-class", "cd /")
+run("Instalando EFI-class", "wget https://raw.githubusercontent.com/danilacasito/efi-class/master/startup.lua")
+run("PREPARANDO para instalar archivo de arranque", "cd /EFI")
+run("INSTALANDO SISTEMA DE ARRANQUE", "wget https://raw.githubusercontent.com/danilacasito/class/ver1/EFI/bootx64.efi")
+os.reboot()
